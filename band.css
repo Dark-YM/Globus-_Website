@@ -1,0 +1,103 @@
+.navbar ul{ 
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+    }
+    .navbar a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+    }
+    .navbar a:hover{
+        background-color: blue;
+        opacity: 2;
+    }
+    .navbar li{
+        float: left;
+    }
+body{
+    margin: 0;
+    font-family: 'Protest Revolution', sans-serif;
+    color: white;
+    background: #202731;
+}
+    
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.MSV{
+    
+    text-align: right;
+}
+.YG{
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+.LS{
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+
+.YGP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.MSVP{
+    display: flex;
+    justify-items: right;
+    
+}
+.JF{
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+.AVG{
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+.di{
+    list-style: none;
+    display: none;
+    top: 100%;
+    left: 10px;
+    z-index: 102;
+}
+.coud:hover .di{
+    display: block;
+}
+.RF{
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}
+.MRN{
+    font-family: 'Protest Revolution';
+    font-size: large;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+}

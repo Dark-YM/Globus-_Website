@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #0c192c;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar ul{ 
+
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: blue;
+    opacity: 2;
+}
+.navbar li{
+    float: left;
+}
+
+.video-container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+.PRE{
+    width: 900px;
+    height: 900px;
+    position: relative;
+
+}
+.EP{
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+.MT{
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+.TMA{
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+.SSA{
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+.SK{
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+.PTV{
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+.OOM{
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+.MRR{
+    width: 900px;
+    height: 900px;
+    position: relative;
+}
+.di{
+    list-style: none;
+    display: none;
+    top: 100%;
+    left: 10px;
+    z-index: 102;
+}
+.coud:hover .di{
+    display: block;
+}

@@ -1,0 +1,111 @@
+body{
+    background-image: url(poi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.navbar ul{ 
+
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: blue;
+    opacity: 2;
+}
+.navbar li{
+    float: left;
+}
+
+
+
+
+.GP{
+border: none;
+    border-style: solid;
+    border-color: burlywood ;
+    border-width: 5px ;
+    border-radius: 10px;
+    padding: 1px;
+    background-image: url(rma.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.GLO{
+    
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.HF{
+   
+    
+    border-color:white ;
+    border-radius: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.LY{
+    
+   
+    border-style: none;
+    border-color: white;
+    border-radius: 0px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-size: 15px;
+}
+
+.R{
+   
+    border-style:  none;
+    border-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-size: 15px;
+}
+.MS{
+    
+    border-style:  none;
+    border-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-size: 15px;
+}
+.LIL{
+    float:  left;
+    padding: 5px;
+
+}
+.lys{
+    font-size: 200px;
+}
+.di{
+    list-style: none;
+    display: none;
+    top: 100%;
+    left: 10px;
+    z-index: 102;
+}
+.coud:hover .di{
+    display: block;
+}
